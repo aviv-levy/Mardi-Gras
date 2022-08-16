@@ -1,0 +1,39 @@
+#logo{
+    width: 7vw;
+    height: auto;
+}
+
+.adjustSlide{
+    width: 50%;
+    margin: auto;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navItem{
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerTitles{
+    display: flex;
+}
+
+.footernav{
+    list-style-type: none;
+}
