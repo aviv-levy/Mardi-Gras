@@ -2,48 +2,60 @@
 .logo{
     width: 6vw;
 }
+.footerLogo{
+    width: 45%;
+}
 
 h5{
 font-family: 'Henny Penny','Pattaya'; 
 }
 
+
+/* slider */
 .adjustSlide{
     width: 100%;
     margin: auto;
 }
 
-
-
 .carousel-inner img{
     height: 80vh;
 }
+/* slider */
 
-.navbar ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+
+/* footer */
+svg{
+    position: relative;
+    bottom: 3px;
+    right: 5px;
+    width: 13px;
+    fill: #fff;
 }
 
-.navItem{
-    padding-right: 3%;
-    padding-left: 3%;
-}
-
-.navbar a{
+#followus a{
     text-decoration: none;
 }
+/* footer */
 
-
-.footer{
-    position: fixed;
-    bottom: 0;
+/* Information */
+.info{
+    background-color: #212529;
+}
+.information:first-child{
+    clip-path: polygon(0 10%, 100% 35%, 100% 100%, 0 100%);
+    background-color: #8CBF3F;
     width: 100%;
+    height: 200px;
 }
 
-.footerTitles{
-    display: flex;
+.information:nth-child(2){
+    background-color: #F2CC0F;
+    width: 100%;
+    height: 200px;
 }
-
-.footernav{
-    list-style-type: none;
+.information:nth-child(3){
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 90%);
+    background-color: #9453A6;
+    width: 100%;
+    height: 200px;
 }
