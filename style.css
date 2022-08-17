@@ -1,11 +1,21 @@
+
 #logo{
-    width: 7vw;
-    height: auto;
+    width: 6vw;
+}
+
+h5{
+font-family: 'Henny Penny','Pattaya'; 
 }
 
 .adjustSlide{
-    width: 50%;
+    width: 100%;
     margin: auto;
+}
+
+
+
+.carousel-inner img{
+    height: 80vh;
 }
 
 .navbar ul{
