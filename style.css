@@ -40,22 +40,62 @@ svg{
 /* Information */
 .info{
     background-color: #212529;
+    font-size: 1em;
 }
 .information:first-child{
-    clip-path: polygon(0 10%, 100% 35%, 100% 100%, 0 100%);
+    clip-path: polygon(0 10%, 100% 30%, 100% 100%, 0 100%);
     background-color: #8CBF3F;
     width: 100%;
-    height: 200px;
+    display: flex;
+    padding: 6.1em 3% 2.6em;
+    padding-left: 15%;
+}
+
+.information:first-child div{
+    margin-top: auto;
+    margin-left: 5%;
+    color: #fff;
+}
+.information:first-child img{
+    height: fit-content;
+    margin-top: auto;
+    padding: 4.2em 3% 1em;
 }
 
 .information:nth-child(2){
     background-color: #F2CC0F;
     width: 100%;
-    height: 200px;
+    display: flex;
+    padding: 2.1em 3% 2.6em;
+    justify-content: flex-end;
+    padding-right: 15%;
 }
+
+.information:nth-child(2) div{
+    margin-top: auto;
+    margin-right: 5%;
+}
+.information:nth-child(2) img{
+    height: fit-content;
+    margin-top: auto;
+    padding: 2.1em 3% 1em;
+}
+
 .information:nth-child(3){
     clip-path: polygon(0 0, 100% 0, 100% 65%, 0 90%);
     background-color: #9453A6;
     width: 100%;
-    height: 200px;
+    display: flex;
+    padding: 2.8em 3% 6em;
+}
+.information:nth-child(3) div{
+    margin-top: auto;
+    margin-left: 5%;
+    color: #fff;
+}
+.information:nth-child(3) img{
+    height: fit-content;
+    margin-top: auto;
+    margin-left: 15%;
+
 }
