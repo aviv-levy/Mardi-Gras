@@ -1,0 +1,28 @@
+
+.logo{
+    width: 6vw;
+}
+.footerLogo{
+    width: 45%;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h5{
+font-family: 'Henny Penny','Pattaya'; 
+}
+
+/* footer */
+svg{
+    position: relative;
+    bottom: 3px;
+    right: 5px;
+    width: 13px;
+    fill: #fff;
+}
+
+#followus a{
+    text-decoration: none;
+}
+/* footer */
