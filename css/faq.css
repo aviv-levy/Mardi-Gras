@@ -1,0 +1,8 @@
+.accordion-button::after{
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion{
+    padding: 5% 25% 5% 25%;
+    background-color: #212529;
+}
