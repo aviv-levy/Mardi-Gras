@@ -19,18 +19,24 @@ function validation(name,lname,email,textarea){
         errordisplay.innerHTML+= msg;
     }
 
-    if(lname.value.trim().length <2){
+    else if(lname.value.trim().length <2){
         let msg = '<div>your last name is wrong</div>';
         errordisplay.innerHTML+= msg;
     }
 
-    if(!email.value.includes("@")){
+    else if(!email.value.includes("@")){
         let msg = '<div>Incorrect email</div>'
         errordisplay.innerHTML+= msg;
     }
 
-    if(textarea.value.trim().length<1){
+    else if(textarea.value.trim().length<1){
         let msg = '<div>Please write some contnent</div>'
+        errordisplay.innerHTML+= msg;
+    }
+
+    else{
+        errordisplay.style.backgroundColor = 'green';
+        let msg = '<div>Comment sent!</div>'
         errordisplay.innerHTML+= msg;
     }
     setTimeout(()=>{errordisplay.style.display = 'none'}, 5000);

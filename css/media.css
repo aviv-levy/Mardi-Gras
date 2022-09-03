@@ -1,3 +1,7 @@
+body{
+    background-color: #212529; 
+}
+
 .row{
     padding: 1%;
 }
@@ -5,4 +9,10 @@
 .galleryy{
     padding: 5%;
     background-color: #212529;
+}
+
+.mybanner{
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(53,59,65,1) 0%, rgba(33,37,41,1) 50%, rgba(53,59,65,1) 100%);
 }

@@ -1,3 +1,6 @@
+body{
+    background-color: #212529; 
+}
 .accordion-button::after{
     filter: brightness(0%) invert(100%);
 }
@@ -5,4 +8,10 @@
 .accordion{
     padding: 5% 25% 5% 25%;
     background-color: #212529;
+}
+
+.mybanner{
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(53,59,65,1) 0%, rgba(33,37,41,1) 50%, rgba(53,59,65,1) 100%);
 }
